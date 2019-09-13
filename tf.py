@@ -15,3 +15,5 @@ with tf.Session() as sess:
     print("a: %i" % sess.run(a), "b: %i" % sess.run(b))
     print("Addition with constants: %i" % sess.run(a+b))
     print("Multiplication with constants: %i" % sess.run(a*b))
+
+
